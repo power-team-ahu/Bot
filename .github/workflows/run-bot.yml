@@ -22,6 +22,6 @@ jobs:
 
       - name: Run bot
         run: |
-          python bot_english_networksafe.py
+          bb.py
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
